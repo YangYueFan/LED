@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2484A7A2064AFF80035EE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2484A792064AFF80035EE78 /* AppDelegate.swift */; };
+		F2484A7C2064AFF80035EE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2484A7B2064AFF80035EE78 /* ViewController.swift */; };
+		F2484A7F2064AFF80035EE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2484A7D2064AFF80035EE78 /* Main.storyboard */; };
+		F2484A812064AFF80035EE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2484A802064AFF80035EE78 /* Assets.xcassets */; };
+		F2484A842064AFF80035EE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2484A822064AFF80035EE78 /* LaunchScreen.storyboard */; };
+		F2484A8F2064AFF80035EE78 /* ledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2484A8E2064AFF80035EE78 /* ledTests.swift */; };
+		F2484A9A2064AFF80035EE78 /* ledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2484A992064AFF80035EE78 /* ledUITests.swift */; };
+		F2484AB12064D7D90035EE78 /* LedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2484AB02064D7D90035EE78 /* LedView.swift */; };
+		F2484AB52064E4760035EE78 /* StringToImg.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AB42064E4760035EE78 /* StringToImg.m */; };
+		F2484AB82064EC3E0035EE78 /* UIImage+Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AB72064EC3E0035EE78 /* UIImage+Pixel.m */; };
+		F2484ADC206501E00035EE78 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484ABC206501E00035EE78 /* IQNSArray+Sort.m */; };
+		F2484ADD206501E00035EE78 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484ABE206501E00035EE78 /* IQUIScrollView+Additions.m */; };
+		F2484ADE206501E00035EE78 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AC0206501E00035EE78 /* IQUITextFieldView+Additions.m */; };
+		F2484ADF206501E00035EE78 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AC2206501E00035EE78 /* IQUIView+Hierarchy.m */; };
+		F2484AE0206501E00035EE78 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AC4206501E00035EE78 /* IQUIViewController+Additions.m */; };
+		F2484AE1206501E00035EE78 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AC9206501E00035EE78 /* IQKeyboardManager.m */; };
+		F2484AE2206501E00035EE78 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484ACB206501E00035EE78 /* IQKeyboardReturnKeyHandler.m */; };
+		F2484AE3206501E00035EE78 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484ACE206501E00035EE78 /* IQTextView.m */; };
+		F2484AE4206501E00035EE78 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AD1206501E00035EE78 /* IQBarButtonItem.m */; };
+		F2484AE5206501E00035EE78 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AD3206501E00035EE78 /* IQPreviousNextView.m */; };
+		F2484AE6206501E00035EE78 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AD5206501E00035EE78 /* IQTitleBarButtonItem.m */; };
+		F2484AE7206501E00035EE78 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AD7206501E00035EE78 /* IQToolbar.m */; };
+		F2484AE8206501E00035EE78 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F2484AD9206501E00035EE78 /* IQUIView+IQKeyboardToolbar.m */; };
+		F2484AE9206501E00035EE78 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2484ADB206501E00035EE78 /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2484A8B2064AFF80035EE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2484A6E2064AFF80035EE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2484A752064AFF80035EE78;
+			remoteInfo = led;
+		};
+		F2484A962064AFF80035EE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2484A6E2064AFF80035EE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2484A752064AFF80035EE78;
+			remoteInfo = led;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2484A762064AFF80035EE78 /* led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = led.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2484A792064AFF80035EE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2484A7B2064AFF80035EE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2484A7E2064AFF80035EE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2484A802064AFF80035EE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2484A832064AFF80035EE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2484A852064AFF80035EE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2484A8A2064AFF80035EE78 /* ledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2484A8E2064AFF80035EE78 /* ledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ledTests.swift; sourceTree = "<group>"; };
+		F2484A902064AFF80035EE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2484A952064AFF80035EE78 /* ledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2484A992064AFF80035EE78 /* ledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ledUITests.swift; sourceTree = "<group>"; };
+		F2484A9B2064AFF80035EE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2484AB02064D7D90035EE78 /* LedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedView.swift; sourceTree = "<group>"; };
+		F2484AB22064E4760035EE78 /* led-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "led-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2484AB32064E4760035EE78 /* StringToImg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringToImg.h; sourceTree = "<group>"; };
+		F2484AB42064E4760035EE78 /* StringToImg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringToImg.m; sourceTree = "<group>"; };
+		F2484AB62064EC3E0035EE78 /* UIImage+Pixel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Pixel.h"; sourceTree = "<group>"; };
+		F2484AB72064EC3E0035EE78 /* UIImage+Pixel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Pixel.m"; sourceTree = "<group>"; };
+		F2484ABB206501E00035EE78 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		F2484ABC206501E00035EE78 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		F2484ABD206501E00035EE78 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		F2484ABE206501E00035EE78 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		F2484ABF206501E00035EE78 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		F2484AC0206501E00035EE78 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		F2484AC1206501E00035EE78 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		F2484AC2206501E00035EE78 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		F2484AC3206501E00035EE78 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		F2484AC4206501E00035EE78 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		F2484AC6206501E00035EE78 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		F2484AC7206501E00035EE78 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		F2484AC8206501E00035EE78 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		F2484AC9206501E00035EE78 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		F2484ACA206501E00035EE78 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		F2484ACB206501E00035EE78 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		F2484ACD206501E00035EE78 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		F2484ACE206501E00035EE78 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		F2484AD0206501E00035EE78 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		F2484AD1206501E00035EE78 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		F2484AD2206501E00035EE78 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		F2484AD3206501E00035EE78 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		F2484AD4206501E00035EE78 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		F2484AD5206501E00035EE78 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		F2484AD6206501E00035EE78 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		F2484AD7206501E00035EE78 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		F2484AD8206501E00035EE78 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		F2484AD9206501E00035EE78 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		F2484ADB206501E00035EE78 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2484A732064AFF80035EE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A872064AFF80035EE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A922064AFF80035EE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2484A6D2064AFF80035EE78 = {
+			isa = PBXGroup;
+			children = (
+				F2484A782064AFF80035EE78 /* led */,
+				F2484A8D2064AFF80035EE78 /* ledTests */,
+				F2484A982064AFF80035EE78 /* ledUITests */,
+				F2484A772064AFF80035EE78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2484A772064AFF80035EE78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2484A762064AFF80035EE78 /* led.app */,
+				F2484A8A2064AFF80035EE78 /* ledTests.xctest */,
+				F2484A952064AFF80035EE78 /* ledUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2484A782064AFF80035EE78 /* led */ = {
+			isa = PBXGroup;
+			children = (
+				F2484AB02064D7D90035EE78 /* LedView.swift */,
+				F24A08DF2068821100F2E8B1 /* Tools */,
+				F2484AB9206501E00035EE78 /* IQKeyboardManager */,
+				F2484A792064AFF80035EE78 /* AppDelegate.swift */,
+				F2484A7B2064AFF80035EE78 /* ViewController.swift */,
+				F2484A7D2064AFF80035EE78 /* Main.storyboard */,
+				F2484A802064AFF80035EE78 /* Assets.xcassets */,
+				F2484A822064AFF80035EE78 /* LaunchScreen.storyboard */,
+				F2484A852064AFF80035EE78 /* Info.plist */,
+				F2484AB22064E4760035EE78 /* led-Bridging-Header.h */,
+			);
+			path = led;
+			sourceTree = "<group>";
+		};
+		F2484A8D2064AFF80035EE78 /* ledTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2484A8E2064AFF80035EE78 /* ledTests.swift */,
+				F2484A902064AFF80035EE78 /* Info.plist */,
+			);
+			path = ledTests;
+			sourceTree = "<group>";
+		};
+		F2484A982064AFF80035EE78 /* ledUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2484A992064AFF80035EE78 /* ledUITests.swift */,
+				F2484A9B2064AFF80035EE78 /* Info.plist */,
+			);
+			path = ledUITests;
+			sourceTree = "<group>";
+		};
+		F2484AB9206501E00035EE78 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2484ABA206501E00035EE78 /* Categories */,
+				F2484AC5206501E00035EE78 /* Constants */,
+				F2484AC8206501E00035EE78 /* IQKeyboardManager.h */,
+				F2484AC9206501E00035EE78 /* IQKeyboardManager.m */,
+				F2484ACA206501E00035EE78 /* IQKeyboardReturnKeyHandler.h */,
+				F2484ACB206501E00035EE78 /* IQKeyboardReturnKeyHandler.m */,
+				F2484ACC206501E00035EE78 /* IQTextView */,
+				F2484ACF206501E00035EE78 /* IQToolbar */,
+				F2484ADA206501E00035EE78 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		F2484ABA206501E00035EE78 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F2484ABB206501E00035EE78 /* IQNSArray+Sort.h */,
+				F2484ABC206501E00035EE78 /* IQNSArray+Sort.m */,
+				F2484ABD206501E00035EE78 /* IQUIScrollView+Additions.h */,
+				F2484ABE206501E00035EE78 /* IQUIScrollView+Additions.m */,
+				F2484ABF206501E00035EE78 /* IQUITextFieldView+Additions.h */,
+				F2484AC0206501E00035EE78 /* IQUITextFieldView+Additions.m */,
+				F2484AC1206501E00035EE78 /* IQUIView+Hierarchy.h */,
+				F2484AC2206501E00035EE78 /* IQUIView+Hierarchy.m */,
+				F2484AC3206501E00035EE78 /* IQUIViewController+Additions.h */,
+				F2484AC4206501E00035EE78 /* IQUIViewController+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F2484AC5206501E00035EE78 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F2484AC6206501E00035EE78 /* IQKeyboardManagerConstants.h */,
+				F2484AC7206501E00035EE78 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F2484ACC206501E00035EE78 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F2484ACD206501E00035EE78 /* IQTextView.h */,
+				F2484ACE206501E00035EE78 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		F2484ACF206501E00035EE78 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				F2484AD0206501E00035EE78 /* IQBarButtonItem.h */,
+				F2484AD1206501E00035EE78 /* IQBarButtonItem.m */,
+				F2484AD2206501E00035EE78 /* IQPreviousNextView.h */,
+				F2484AD3206501E00035EE78 /* IQPreviousNextView.m */,
+				F2484AD4206501E00035EE78 /* IQTitleBarButtonItem.h */,
+				F2484AD5206501E00035EE78 /* IQTitleBarButtonItem.m */,
+				F2484AD6206501E00035EE78 /* IQToolbar.h */,
+				F2484AD7206501E00035EE78 /* IQToolbar.m */,
+				F2484AD8206501E00035EE78 /* IQUIView+IQKeyboardToolbar.h */,
+				F2484AD9206501E00035EE78 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		F2484ADA206501E00035EE78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2484ADB206501E00035EE78 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F24A08DF2068821100F2E8B1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F2484AB32064E4760035EE78 /* StringToImg.h */,
+				F2484AB42064E4760035EE78 /* StringToImg.m */,
+				F2484AB62064EC3E0035EE78 /* UIImage+Pixel.h */,
+				F2484AB72064EC3E0035EE78 /* UIImage+Pixel.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2484A752064AFF80035EE78 /* led */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2484A9E2064AFF80035EE78 /* Build configuration list for PBXNativeTarget "led" */;
+			buildPhases = (
+				F2484A722064AFF80035EE78 /* Sources */,
+				F2484A732064AFF80035EE78 /* Frameworks */,
+				F2484A742064AFF80035EE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = led;
+			productName = led;
+			productReference = F2484A762064AFF80035EE78 /* led.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2484A892064AFF80035EE78 /* ledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2484AA12064AFF80035EE78 /* Build configuration list for PBXNativeTarget "ledTests" */;
+			buildPhases = (
+				F2484A862064AFF80035EE78 /* Sources */,
+				F2484A872064AFF80035EE78 /* Frameworks */,
+				F2484A882064AFF80035EE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2484A8C2064AFF80035EE78 /* PBXTargetDependency */,
+			);
+			name = ledTests;
+			productName = ledTests;
+			productReference = F2484A8A2064AFF80035EE78 /* ledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2484A942064AFF80035EE78 /* ledUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2484AA42064AFF80035EE78 /* Build configuration list for PBXNativeTarget "ledUITests" */;
+			buildPhases = (
+				F2484A912064AFF80035EE78 /* Sources */,
+				F2484A922064AFF80035EE78 /* Frameworks */,
+				F2484A932064AFF80035EE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2484A972064AFF80035EE78 /* PBXTargetDependency */,
+			);
+			name = ledUITests;
+			productName = ledUITests;
+			productReference = F2484A952064AFF80035EE78 /* ledUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2484A6E2064AFF80035EE78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ken;
+				TargetAttributes = {
+					F2484A752064AFF80035EE78 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F2484A892064AFF80035EE78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2484A752064AFF80035EE78;
+					};
+					F2484A942064AFF80035EE78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2484A752064AFF80035EE78;
+					};
+				};
+			};
+			buildConfigurationList = F2484A712064AFF80035EE78 /* Build configuration list for PBXProject "led" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2484A6D2064AFF80035EE78;
+			productRefGroup = F2484A772064AFF80035EE78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2484A752064AFF80035EE78 /* led */,
+				F2484A892064AFF80035EE78 /* ledTests */,
+				F2484A942064AFF80035EE78 /* ledUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2484A742064AFF80035EE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2484AE9206501E00035EE78 /* IQKeyboardManager.bundle in Resources */,
+				F2484A842064AFF80035EE78 /* LaunchScreen.storyboard in Resources */,
+				F2484A812064AFF80035EE78 /* Assets.xcassets in Resources */,
+				F2484A7F2064AFF80035EE78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A882064AFF80035EE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A932064AFF80035EE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2484A722064AFF80035EE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2484AE5206501E00035EE78 /* IQPreviousNextView.m in Sources */,
+				F2484AE1206501E00035EE78 /* IQKeyboardManager.m in Sources */,
+				F2484AB82064EC3E0035EE78 /* UIImage+Pixel.m in Sources */,
+				F2484ADD206501E00035EE78 /* IQUIScrollView+Additions.m in Sources */,
+				F2484AE0206501E00035EE78 /* IQUIViewController+Additions.m in Sources */,
+				F2484AE7206501E00035EE78 /* IQToolbar.m in Sources */,
+				F2484AB52064E4760035EE78 /* StringToImg.m in Sources */,
+				F2484AB12064D7D90035EE78 /* LedView.swift in Sources */,
+				F2484ADF206501E00035EE78 /* IQUIView+Hierarchy.m in Sources */,
+				F2484AE2206501E00035EE78 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				F2484ADC206501E00035EE78 /* IQNSArray+Sort.m in Sources */,
+				F2484A7C2064AFF80035EE78 /* ViewController.swift in Sources */,
+				F2484AE6206501E00035EE78 /* IQTitleBarButtonItem.m in Sources */,
+				F2484ADE206501E00035EE78 /* IQUITextFieldView+Additions.m in Sources */,
+				F2484AE4206501E00035EE78 /* IQBarButtonItem.m in Sources */,
+				F2484A7A2064AFF80035EE78 /* AppDelegate.swift in Sources */,
+				F2484AE8206501E00035EE78 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				F2484AE3206501E00035EE78 /* IQTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A862064AFF80035EE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2484A8F2064AFF80035EE78 /* ledTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2484A912064AFF80035EE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2484A9A2064AFF80035EE78 /* ledUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2484A8C2064AFF80035EE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2484A752064AFF80035EE78 /* led */;
+			targetProxy = F2484A8B2064AFF80035EE78 /* PBXContainerItemProxy */;
+		};
+		F2484A972064AFF80035EE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2484A752064AFF80035EE78 /* led */;
+			targetProxy = F2484A962064AFF80035EE78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2484A7D2064AFF80035EE78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2484A7E2064AFF80035EE78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2484A822064AFF80035EE78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2484A832064AFF80035EE78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2484A9C2064AFF80035EE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2484A9D2064AFF80035EE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2484A9F2064AFF80035EE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = led/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.led;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "led/led-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2484AA02064AFF80035EE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = led/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.led;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "led/led-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2484AA22064AFF80035EE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = ledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.ledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
+			};
+			name = Debug;
+		};
+		F2484AA32064AFF80035EE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = ledTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.ledTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
+			};
+			name = Release;
+		};
+		F2484AA52064AFF80035EE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = ledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.ledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = led;
+			};
+			name = Debug;
+		};
+		F2484AA62064AFF80035EE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = ledUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.ledUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = led;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2484A712064AFF80035EE78 /* Build configuration list for PBXProject "led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2484A9C2064AFF80035EE78 /* Debug */,
+				F2484A9D2064AFF80035EE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2484A9E2064AFF80035EE78 /* Build configuration list for PBXNativeTarget "led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2484A9F2064AFF80035EE78 /* Debug */,
+				F2484AA02064AFF80035EE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2484AA12064AFF80035EE78 /* Build configuration list for PBXNativeTarget "ledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2484AA22064AFF80035EE78 /* Debug */,
+				F2484AA32064AFF80035EE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2484AA42064AFF80035EE78 /* Build configuration list for PBXNativeTarget "ledUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2484AA52064AFF80035EE78 /* Debug */,
+				F2484AA62064AFF80035EE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2484A6E2064AFF80035EE78 /* Project object */;
+}
